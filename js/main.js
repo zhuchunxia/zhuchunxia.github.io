@@ -1,5 +1,24 @@
 'use strict';
 $(document).ready(function () {
+	$('body').click(function () {
+		screenfull.request();
+	});
+	function fullscreenchange() {
+		var elem = screenfull.element;
+
+		$('#status').text('Is fullscreen: ' + screenfull.isFullscreen);
+
+		if (elem) {
+			$('#element').text('Element: ' + elem.localName + (elem.id ? '#' + elem.id : ''));
+		}
+
+		if (!screenfull.isFullscreen) {
+			$('#external-iframe').remove();
+			document.body.style.overflow = 'auto';
+		}
+	}
+	document.addEventListener(screenfull.raw.fullscreenchange, fullscreenchange);
+	fullscreenchange();
     var navigating = false, curPage = 1, pages = $('.section').length, $sections = $('.sections'), $paginationPage = $('.pagination .page'), $paginationTotal = $('.total-pages'), $textStuff = $('.section-heading, .additional-text');
     if (pages >= 10) {
         $paginationTotal.text(pages);
