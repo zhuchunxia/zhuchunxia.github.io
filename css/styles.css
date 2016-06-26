@@ -164,10 +164,10 @@ html, body {
   -webkit-transition-delay: 4.15s;
           transition-delay: 4.15s;
 }
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-27 {
+/*.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-27 {
   -webkit-transition-delay: 4.30s;
           transition-delay: 4.30s;
-}
+}*/
 .sidebar-hover:hover ~ .sections .content {
   -webkit-transform: translateX(30rem);
       -ms-transform: translateX(30rem);
@@ -378,6 +378,9 @@ html, body {
 .nav-elem:hover:after {
   background: transparent;
 }
+/**
+ * 原创
+ */
 .nav-elem.nav-1 {
   background-image: url(../imgs/Portfolio/1_Original/0.jpg);
 }
@@ -399,6 +402,9 @@ html, body {
 .nav-elem.nav-7 {
   background-image: url(../imgs/Portfolio/1_Original/6.jpg);
 }
+/**
+ * 游戏UI
+ */
 .nav-elem.nav-8 {
   background-image: url(../imgs/Portfolio/2_GameUI/1.jpg);
 }
@@ -429,36 +435,42 @@ html, body {
 .nav-elem.nav-17 {
   background-image: url(../imgs/Portfolio/2_GameUI/10.jpg);
 }
+/**
+ * 临摹
+ */
 .nav-elem.nav-18 {
-  background-image: url(../imgs/BxLZ53E.jpg);
+  background-image: url(../imgs/Portfolio/3_Copying/1.JPG);
 }
 .nav-elem.nav-19 {
-  background-image: url(../imgs/BxLZ53E.jpg);
+  background-image: url(../imgs/Portfolio/3_Copying/2.JPG);
 }
 .nav-elem.nav-20 {
-  background-image: url(../imgs/BxLZ53E.jpg);
+  background-image: url(../imgs/Portfolio/3_Copying/3.JPG);
 }
 .nav-elem.nav-21 {
-  background-image: url(../imgs/Portfolio/1_Original/0.jpg);
+  background-image: url(../imgs/Portfolio/3_Copying/4.JPG);
 }
 .nav-elem.nav-22 {
-  background-image: url(../imgs/Portfolio/1_Original/1.jpg);
+  background-image: url(../imgs/Portfolio/3_Copying/5.JPG);
 }
+/**
+ * 网页APP
+ */
 .nav-elem.nav-23 {
-  background-image: url(../imgs/Portfolio/1_Original/2.jpg);
+  background-image: url(../imgs/Portfolio/4_WebAPP/1.JPG);
 }
 .nav-elem.nav-24 {
-  background-image: url(../imgs/Portfolio/1_Original/3.jpg);
+  background-image: url(../imgs/Portfolio/4_WebAPP/2.jpg);
 }
 .nav-elem.nav-25 {
-  background-image: url(../imgs/Portfolio/1_Original/4.jpg);
+  background-image: url(../imgs/Portfolio/4_WebAPP/3.jpg);
 }
 .nav-elem.nav-26 {
-  background-image: url(../imgs/Portfolio/1_Original/5.jpg);
+  background-image: url(../imgs/Portfolio/4_WebAPP/4.jpg);
 }
-.nav-elem.nav-27 {
-  background-image: url(../imgs/Portfolio/1_Original/6.jpg);
-}
+/*.nav-elem.nav-27 {
+  background-image: url(../imgs/Portfolio/4_WebAPP/5.jpg);
+}*/
 /* REAL SIDEBAR STYLES END */
 /* SECTIONS STYLES */
 .sections {
@@ -472,6 +484,9 @@ html, body {
   position: relative;
   height: 100%;
 }
+/**
+ * 原创
+ */
 .section.section-1 .left-part {
   background-image: url("../imgs/Portfolio/1_Original/0.jpg");
 }
@@ -514,6 +529,9 @@ html, body {
 .section.section-7 .bg-part {
   background-image: url("../imgs/Portfolio/1_Original/6.jpg");
 }
+/**
+ * 游戏UI
+ */
 .section.section-8 .left-part {
   background-image: url(../imgs/Portfolio/2_GameUI/1.jpg);
 }
@@ -574,66 +592,72 @@ html, body {
 .section.section-17 .bg-part {
   background-image: url(../imgs/Portfolio/2_GameUI/10.jpg);
 }
+/**
+ * 临摹
+ */
 .section.section-18 .left-part {
-  background-image: url("../imgs/jAY4044.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/1.JPG);
 }
 .section.section-18 .bg-part {
-  background-image: url("../imgs/jAY4044.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/1.JPG);
 }
 .section.section-19 .left-part {
-  background-image: url("../imgs/jAY4044.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/2.JPG);
 }
 .section.section-19 .bg-part {
-  background-image: url("../imgs/jAY4044.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/2.JPG);
 }
 .section.section-20 .left-part {
-  background-image: url("../imgs/jAY4044.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/3.JPG);
 }
 .section.section-20 .bg-part {
-  background-image: url("../imgs/jAY4044.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/3.JPG);
 }
 .section.section-21 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/0.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/4.JPG);
 }
 .section.section-21 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/0.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/4.JPG);
 }
 .section.section-22 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/1.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/5.JPG);
 }
 .section.section-22 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/1.jpg");
+  background-image: url(../imgs/Portfolio/3_Copying/5.JPG);
 }
+/**
+ * 网页app
+ */
 .section.section-23 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/2.jpg");
+  background-image: url(../imgs/Portfolio/4_WebAPP/1.JPG);
 }
 .section.section-23 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/2.jpg");
+  background-image: url(../imgs/Portfolio/4_WebAPP/1.JPG);
 }
 .section.section-24 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/3.jpg");
+  background-image: url(../imgs/Portfolio/4_WebAPP/2.JPG);
 }
 .section.section-24 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/3.jpg");
+  background-image: url(../imgs/Portfolio/4_WebAPP/2.JPG);
 }
 .section.section-25 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/4.jpg");
+  background-image: url(../imgs/Portfolio/4_WebAPP/3.JPG);
 }
 .section.section-25 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/4.jpg");
+  background-image: url(../imgs/Portfolio/4_WebAPP/3.JPG);
 }
 .section.section-26 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/5.jpg");
+  background-image: url(../imgs/Portfolio/4_WebAPP/4.JPG);
 }
 .section.section-26 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/5.jpg");
+  background-image: url(../imgs/Portfolio/4_WebAPP/4.JPG);
 }
-.section.section-27 .left-part {
+/*.section.section-27 .left-part {
   background-image: url("../imgs/Portfolio/1_Original/6.jpg");
 }
 .section.section-27 .bg-part {
   background-image: url("../imgs/Portfolio/1_Original/6.jpg");
-}
+}*/
 
 .left-part,
 .bg-part {
