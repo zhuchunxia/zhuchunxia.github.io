@@ -1,7 +1,8 @@
 // -----------------创建页面元素-------------------
 
 function setTotalPages(total) {
-	$(".total-pages").text(total);
+	$("span.total-pages").text(total);
+	console.log(total);
 }
 function createSidebarRealContent(total) {
 	for (var i = 0; i < total; i++) {
@@ -18,22 +19,24 @@ function createSectionsContent(imgs) {
 				var bgPart = "<div class=\"bg-part\"></div>";
 				var sectionHeading = "<h2 class=\"section-heading\"></h2>";
 				var additionalText = "<p class=\"additional-text\"></p>";
+		// 填充 sections
+		var _section = $(section);
+		$(".sections").append(_section);
+		// 填充 section
+		var _leftPart = $(leftPart);
+		var _content = $(content);
+		_section.append(_leftPart);
+		_section.append(_content);
 		// 填充content
-		for (var j = 0; j < imgs.length; j++) {
-			$(content).append(bgPart);
+		for (var j = 0; j < 8; j++) {
+			_content.append($(bgPart));
 		}
 		if (imgs[i].title != null) {
-			$(sectionHeading).text(imgs[i].title);
-			$(content).append(sectionHeading);
+			_content.append($(sectionHeading).text(imgs[i].title));
 		}
 		if (imgs[i].desc != null) {
-			$(additionalText).text(imgs[i].desc);
-			$(content).append(additionalText);
+			_content.append($(additionalText).text(imgs[i].desc));
 		}
-		// 填充 section
-		$(section).append(leftPart);
-		$(section).append(content);
-		$(".sections").append(section);
 	}
 }
 

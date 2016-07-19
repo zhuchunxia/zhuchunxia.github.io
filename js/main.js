@@ -1,5 +1,16 @@
 'use strict';
 $(document).ready(function () {
+	//初始化页面
+	var total = pageConfig.imgs.length;
+	//setTotalPages(total);
+	createSidebarRealContent(total);
+	createSectionsContent(pageConfig.imgs);
+	fillSidebarHoverData(total);
+	fillSidebarRealData(total);
+	fillNavElemData(pageConfig.imgs);
+	fillSectionData(pageConfig.imgs);
+
+
 	$('body').click(function () {
 		screenfull.request();
 	});
@@ -19,7 +30,7 @@ $(document).ready(function () {
 	}
 	document.addEventListener(screenfull.raw.fullscreenchange, fullscreenchange);
 	fullscreenchange();
-    var navigating = false, curPage = 1, pages = $('.section').length, $sections = $('.sections'), $paginationPage = $('.pagination .page'), $paginationTotal = $('.total-pages'), $textStuff = $('.section-heading, .additional-text');
+    var navigating = false, curPage = 1, pages = pageConfig.imgs.length, $sections = $('.sections'), $paginationPage = $('.pagination .page'), $paginationTotal = $('.total-pages'), $textStuff = $('.section-heading, .additional-text');
     if (pages >= 10) {
         $paginationTotal.text(pages);
     } else {
