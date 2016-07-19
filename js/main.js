@@ -1,5 +1,17 @@
 'use strict';
 $(document).ready(function () {
+	//初始化页面
+	var total = pageConfig.imgs.length;
+	console.log(pageConfig);
+	setTotalPages(total);
+	createSidebarRealContent(total);
+	createSectionsContent(total);
+	fillSidebarHoverData(total);
+	fillSidebarRealData(total);
+	fillNavElemData(pageConfig.imgs);
+	fillSectionData(pageConfig.imgs);
+
+
 	$('body').click(function () {
 		screenfull.request();
 	});

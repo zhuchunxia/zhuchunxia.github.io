@@ -60,114 +60,12 @@ html, body {
       -ms-transform: translateX(0);
           transform: translateX(0);
 }
+/*
 .sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-1 {
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
 }
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-2 {
-  -webkit-transition-delay: 0.55s;
-          transition-delay: 0.55s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-3 {
-  -webkit-transition-delay: 0.7s;
-          transition-delay: 0.7s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-4 {
-  -webkit-transition-delay: 0.85s;
-          transition-delay: 0.85s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-5 {
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-6 {
-  -webkit-transition-delay: 1.15s;
-          transition-delay: 1.15s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-7 {
-  -webkit-transition-delay: 1.3s;
-          transition-delay: 1.3s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-8 {
-  -webkit-transition-delay: 1.45s;
-          transition-delay: 1.45s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-9 {
-  -webkit-transition-delay: 1.6s;
-          transition-delay: 1.6s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-10 {
-  -webkit-transition-delay: 1.75s;
-          transition-delay: 1.75s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-11 {
-  -webkit-transition-delay: 1.90s;
-          transition-delay: 1.90s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-12 {
-  -webkit-transition-delay: 2.05s;
-          transition-delay: 2.05s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-13 {
-  -webkit-transition-delay: 2.20s;
-          transition-delay: 2.20s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-14 {
-  -webkit-transition-delay: 2.35s;
-          transition-delay: 2.35s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-15 {
-  -webkit-transition-delay: 2.50s;
-          transition-delay: 2.50s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-16 {
-  -webkit-transition-delay: 2.65s;
-          transition-delay: 2.65s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-17 {
-  -webkit-transition-delay: 2.80s;
-          transition-delay: 2.80s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-18 {
-  -webkit-transition-delay: 2.95s;
-          transition-delay: 2.95s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-19 {
-  -webkit-transition-delay: 3.10s;
-          transition-delay: 3.10s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-20 {
-  -webkit-transition-delay: 3.25s;
-          transition-delay: 3.25s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-21 {
-  -webkit-transition-delay: 3.40s;
-          transition-delay: 3.40s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-22 {
-  -webkit-transition-delay: 3.55s;
-          transition-delay: 3.55s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-23 {
-  -webkit-transition-delay: 3.70s;
-          transition-delay: 3.70s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-24 {
-  -webkit-transition-delay: 3.85s;
-          transition-delay: 3.85s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-25 {
-  -webkit-transition-delay: 4.00s;
-          transition-delay: 4.00s;
-}
-.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-26 {
-  -webkit-transition-delay: 4.15s;
-          transition-delay: 4.15s;
-}
-/*.sidebar-hover:hover ~ .sidebar-real .nav-elem.nav-27 {
-  -webkit-transition-delay: 4.30s;
-          transition-delay: 4.30s;
-}*/
+*/
 .sidebar-hover:hover ~ .sections .content {
   -webkit-transform: translateX(30rem);
       -ms-transform: translateX(30rem);
@@ -235,114 +133,17 @@ html, body {
       -ms-transform: translateX(0);
           transform: translateX(0);
 }
+/*
 .sidebar-real:hover .nav-elem.nav-1 {
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
 }
+
 .sidebar-real:hover .nav-elem.nav-2 {
   -webkit-transition-delay: 0.55s;
           transition-delay: 0.55s;
 }
-.sidebar-real:hover .nav-elem.nav-3 {
-  -webkit-transition-delay: 0.7s;
-          transition-delay: 0.7s;
-}
-.sidebar-real:hover .nav-elem.nav-4 {
-  -webkit-transition-delay: 0.85s;
-          transition-delay: 0.85s;
-}
-.sidebar-real:hover .nav-elem.nav-5 {
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
-}
-.sidebar-real:hover .nav-elem.nav-6 {
-  -webkit-transition-delay: 1.15s;
-          transition-delay: 1.15s;
-}
-.sidebar-real:hover .nav-elem.nav-7 {
-  -webkit-transition-delay: 1.3s;
-          transition-delay: 1.3s;
-}
-.sidebar-real:hover .nav-elem.nav-8 {
-  -webkit-transition-delay: 1.45s;
-          transition-delay: 1.45s;
-}
-.sidebar-real:hover .nav-elem.nav-9 {
-  -webkit-transition-delay: 1.6s;
-          transition-delay: 1.6s;
-}
-.sidebar-real:hover .nav-elem.nav-10 {
-  -webkit-transition-delay: 1.75s;
-          transition-delay: 1.75s;
-}
-.sidebar-real:hover .nav-elem.nav-11 {
-  -webkit-transition-delay: 1.90s;
-          transition-delay: 1.90s;
-}
-.sidebar-real:hover .nav-elem.nav-12 {
-  -webkit-transition-delay: 2.05s;
-          transition-delay: 2.05s;
-}
-.sidebar-real:hover .nav-elem.nav-13 {
-  -webkit-transition-delay: 2.20s;
-          transition-delay: 2.20s;
-}
-.sidebar-real:hover .nav-elem.nav-14 {
-  -webkit-transition-delay: 2.35s;
-          transition-delay: 2.35s;
-}
-.sidebar-real:hover .nav-elem.nav-15 {
-  -webkit-transition-delay: 2.50s;
-          transition-delay: 2.50s;
-}
-.sidebar-real:hover .nav-elem.nav-16 {
-  -webkit-transition-delay: 2.65s;
-          transition-delay: 2.65s;
-}
-.sidebar-real:hover .nav-elem.nav-17 {
-  -webkit-transition-delay: 2.80s;
-          transition-delay: 2.80s;
-}
-.sidebar-real:hover .nav-elem.nav-18 {
-  -webkit-transition-delay: 2.95s;
-          transition-delay: 2.95s;
-}
-.sidebar-real:hover .nav-elem.nav-19 {
-  -webkit-transition-delay: 3.10s;
-          transition-delay: 3.10s;
-}
-.sidebar-real:hover .nav-elem.nav-20 {
-  -webkit-transition-delay: 3.25s;
-          transition-delay: 3.25s;
-}
-.sidebar-real:hover .nav-elem.nav-21 {
-  -webkit-transition-delay: 3.40s;
-          transition-delay: 3.40s;
-}
-.sidebar-real:hover .nav-elem.nav-22 {
-  -webkit-transition-delay: 3.55s;
-          transition-delay: 3.55s;
-}
-.sidebar-real:hover .nav-elem.nav-23 {
-  -webkit-transition-delay: 3.70s;
-          transition-delay: 3.70s;
-}
-.sidebar-real:hover .nav-elem.nav-24 {
-  -webkit-transition-delay: 3.85s;
-          transition-delay: 3.85s;
-}
-.sidebar-real:hover .nav-elem.nav-25 {
-  -webkit-transition-delay: 4.00s;
-          transition-delay: 4.00s;
-}
-.sidebar-real:hover .nav-elem.nav-26 {
-  -webkit-transition-delay: 4.15s;
-          transition-delay: 4.15s;
-}
-.sidebar-real:hover .nav-elem.nav-27 {
-  -webkit-transition-delay: 4.30s;
-          transition-delay: 4.30s;
-}
+*/
 .sidebar-real:hover ~ .sections .content {
   -webkit-transform: translateX(30rem);
       -ms-transform: translateX(30rem);
@@ -378,99 +179,14 @@ html, body {
 .nav-elem:hover:after {
   background: transparent;
 }
-/**
- * 原创
- */
+/*
 .nav-elem.nav-1 {
   background-image: url(../imgs/Portfolio/1_Original/0.jpg);
 }
 .nav-elem.nav-2 {
   background-image: url(../imgs/Portfolio/1_Original/1.jpg);
 }
-.nav-elem.nav-3 {
-  background-image: url(../imgs/Portfolio/1_Original/2.jpg);
-}
-.nav-elem.nav-4 {
-  background-image: url(../imgs/Portfolio/1_Original/3.jpg);
-}
-.nav-elem.nav-5 {
-  background-image: url(../imgs/Portfolio/1_Original/4.jpg);
-}
-.nav-elem.nav-6 {
-  background-image: url(../imgs/Portfolio/1_Original/5.jpg);
-}
-.nav-elem.nav-7 {
-  background-image: url(../imgs/Portfolio/1_Original/6.jpg);
-}
-/**
- * 游戏UI
- */
-.nav-elem.nav-8 {
-  background-image: url(../imgs/Portfolio/2_GameUI/1.jpg);
-}
-.nav-elem.nav-9 {
-  background-image: url(../imgs/Portfolio/2_GameUI/2.jpg);
-}
-.nav-elem.nav-10 {
-  background-image: url(../imgs/Portfolio/2_GameUI/3.jpg);
-}
-.nav-elem.nav-11 {
-  background-image: url(../imgs/Portfolio/2_GameUI/4.jpg);
-}
-.nav-elem.nav-12 {
-  background-image: url(../imgs/Portfolio/2_GameUI/5.jpg);
-}
-.nav-elem.nav-13 {
-  background-image: url(../imgs/Portfolio/2_GameUI/6.jpg);
-}
-.nav-elem.nav-14 {
-  background-image: url(../imgs/Portfolio/2_GameUI/7.jpg);
-}
-.nav-elem.nav-15 {
-  background-image: url(../imgs/Portfolio/2_GameUI/8.jpg);
-}
-.nav-elem.nav-16 {
-  background-image: url(../imgs/Portfolio/2_GameUI/9.jpg);
-}
-.nav-elem.nav-17 {
-  background-image: url(../imgs/Portfolio/2_GameUI/10.jpg);
-}
-/**
- * 临摹
- */
-.nav-elem.nav-18 {
-  background-image: url(../imgs/Portfolio/3_Copying/1.jpg);
-}
-.nav-elem.nav-19 {
-  background-image: url(../imgs/Portfolio/3_Copying/2.jpg);
-}
-.nav-elem.nav-20 {
-  background-image: url(../imgs/Portfolio/3_Copying/3.jpg);
-}
-.nav-elem.nav-21 {
-  background-image: url(../imgs/Portfolio/3_Copying/4.jpg);
-}
-.nav-elem.nav-22 {
-  background-image: url(../imgs/Portfolio/3_Copying/5.jpg);
-}
-/**
- * 网页APP
- */
-.nav-elem.nav-23 {
-  background-image: url(../imgs/Portfolio/4_WebAPP/1.jpg);
-}
-.nav-elem.nav-24 {
-  background-image: url(../imgs/Portfolio/4_WebAPP/2.jpg);
-}
-.nav-elem.nav-25 {
-  background-image: url(../imgs/Portfolio/4_WebAPP/3.jpg);
-}
-.nav-elem.nav-26 {
-  background-image: url(../imgs/Portfolio/4_WebAPP/4.jpg);
-}
-/*.nav-elem.nav-27 {
-  background-image: url(../imgs/Portfolio/4_WebAPP/5.jpg);
-}*/
+*/
 /* REAL SIDEBAR STYLES END */
 /* SECTIONS STYLES */
 .sections {
@@ -487,6 +203,7 @@ html, body {
 /**
  * 原创
  */
+/*
 .section.section-1 .left-part {
   background-image: url("../imgs/Portfolio/1_Original/0.jpg");
 }
@@ -499,165 +216,7 @@ html, body {
 .section.section-2 .bg-part {
   background-image: url("../imgs/Portfolio/1_Original/1.jpg");
 }
-.section.section-3 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/2.jpg");
-}
-.section.section-3 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/2.jpg");
-}
-.section.section-4 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/3.jpg");
-}
-.section.section-4 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/3.jpg");
-}
-.section.section-5 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/4.jpg");
-}
-.section.section-5 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/4.jpg");
-}
-.section.section-6 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/5.jpg");
-}
-.section.section-6 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/5.jpg");
-}
-.section.section-7 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/6.jpg");
-}
-.section.section-7 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/6.jpg");
-}
-/**
- * 游戏UI
- */
-.section.section-8 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/1.jpg);
-}
-.section.section-8 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/1.jpg);
-}
-.section.section-9 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/2.jpg);
-}
-.section.section-9 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/2.jpg);
-}
-.section.section-10 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/3.jpg);
-}
-.section.section-10 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/3.jpg);
-}
-.section.section-11 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/4.jpg);
-}
-.section.section-11 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/4.jpg);
-}
-.section.section-12 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/5.jpg);
-}
-.section.section-12 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/5.jpg);
-}
-.section.section-13 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/6.jpg);
-}
-.section.section-13 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/6.jpg);
-}
-.section.section-14 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/7.jpg);
-}
-.section.section-14 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/7.jpg);
-}
-.section.section-15 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/8.jpg);
-}
-.section.section-15 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/8.jpg);
-}
-.section.section-16 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/9.jpg);
-}
-.section.section-16 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/9.jpg);
-}
-.section.section-17 .left-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/10.jpg);
-}
-.section.section-17 .bg-part {
-  background-image: url(../imgs/Portfolio/2_GameUI/10.jpg);
-}
-/**
- * 临摹
- */
-.section.section-18 .left-part {
-  background-image: url(../imgs/Portfolio/3_Copying/1.jpg);
-}
-.section.section-18 .bg-part {
-  background-image: url(../imgs/Portfolio/3_Copying/1.jpg);
-}
-.section.section-19 .left-part {
-  background-image: url(../imgs/Portfolio/3_Copying/2.jpg);
-}
-.section.section-19 .bg-part {
-  background-image: url(../imgs/Portfolio/3_Copying/2.jpg);
-}
-.section.section-20 .left-part {
-  background-image: url(../imgs/Portfolio/3_Copying/3.jpg);
-}
-.section.section-20 .bg-part {
-  background-image: url(../imgs/Portfolio/3_Copying/3.jpg);
-}
-.section.section-21 .left-part {
-  background-image: url(../imgs/Portfolio/3_Copying/4.jpg);
-}
-.section.section-21 .bg-part {
-  background-image: url(../imgs/Portfolio/3_Copying/4.jpg);
-}
-.section.section-22 .left-part {
-  background-image: url(../imgs/Portfolio/3_Copying/5.jpg);
-}
-.section.section-22 .bg-part {
-  background-image: url(../imgs/Portfolio/3_Copying/5.jpg);
-}
-/**
- * 网页app
- */
-.section.section-23 .left-part {
-  background-image: url(../imgs/Portfolio/4_WebAPP/1.jpg);
-}
-.section.section-23 .bg-part {
-  background-image: url(../imgs/Portfolio/4_WebAPP/1.jpg);
-}
-.section.section-24 .left-part {
-  background-image: url(../imgs/Portfolio/4_WebAPP/2.jpg);
-}
-.section.section-24 .bg-part {
-  background-image: url(../imgs/Portfolio/4_WebAPP/2.jpg);
-}
-.section.section-25 .left-part {
-  background-image: url(../imgs/Portfolio/4_WebAPP/3.jpg);
-}
-.section.section-25 .bg-part {
-  background-image: url(../imgs/Portfolio/4_WebAPP/3.jpg);
-}
-.section.section-26 .left-part {
-  background-image: url(../imgs/Portfolio/4_WebAPP/4.jpg);
-}
-.section.section-26 .bg-part {
-  background-image: url(../imgs/Portfolio/4_WebAPP/4.jpg);
-}
-/*.section.section-27 .left-part {
-  background-image: url("../imgs/Portfolio/1_Original/6.jpg");
-}
-.section.section-27 .bg-part {
-  background-image: url("../imgs/Portfolio/1_Original/6.jpg");
-}*/
+*/
 
 .left-part,
 .bg-part {
